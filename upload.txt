@@ -1,0 +1,8 @@
+git init
+git remote add origin https://github.com/Shuilin123/lottery_simple.git
+git ls-remote --heads origin
+git add .
+git commit -m "清晰描述本次提交的内容"
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git push -f origin master

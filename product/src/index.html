@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>年会抽奖</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <!-- <link rel="stylesheet" href="./index.css"> -->
+  </head>
+
+  <body>
+    <script src="./lib/three.min.js"></script>
+    <script src="./lib/tween.min.js"></script>
+    <script src="./lib/TrackballControls.js"></script>
+    <script src="./lib/CSS3DRenderer.js"></script>
+    <script src="./lib/ajax.js"></script>
+
+    <div class="canvas-box">
+      <canvas id="canvas">你的浏览器不支持canvas</canvas>
+    </div>
+
+    <div class="music">
+      <audio id="music" src="./data/music.mp3" class="music-item" loop></audio>
+      <div id="musicBox" class="music-box" title="播放/暂停背景音乐">Music</div>
+    </div>
+
+    <div id="prizeBar"></div>
+
+    <div id="container"></div>
+
+
+    <div id="menu">
+      <button id="enter">进入抽奖</button>
+      <div id="lotteryBar" class="none">
+        <button id="lottery">开始抽奖</button>
+        <button id="reLottery">重新抽奖</button>
+        <div class="draw-count-panel">
+          <label for="drawCount" class="draw-count-label">本次抽取人数</label>
+          <input id="drawCount" type="number" min="1" value="1" />
+        </div>
+        <div class="fixed-bar">
+          <button id="save" class="fixed-btn">导出抽奖结果</button>
+          <button id="reset" class="fixed-btn">重置</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="qipao-container"></div>
+
+    <!-- 奖品管理脚本已由主入口自动引入 -->
+    <!-- Webpack 会自动插入 lottery.js 脚本到 body 结束前 -->
+    <!-- Webpack 会自动插入 lottery.js 脚本到 body 结束前 -->
+  </body>
+</html>

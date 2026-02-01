@@ -12,5 +12,7 @@ npm run build
 
 # 运行
 main.py
+# 致谢
+moshang-xc
 ```
 

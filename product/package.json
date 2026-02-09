@@ -9,7 +9,7 @@
     "build": "set NODE_OPTIONS=--openssl-legacy-provider && webpack --mode=production --progress --colors",
     "dev": "webpack-dev-server --config webpack.dev.js --mode=development --progress --colors"
   },
-  "author": "moshang",
+  "author": "shuilin",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^8.1.0",

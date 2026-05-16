@@ -1,5 +1,5 @@
 ```
-git clone https://github.com/shuilin/Lottery.git
+git clone https://github.com/shuilin/Lottery_simple.git
 
 cd Lottery
 
